@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #111d6c;
+    text-align: center;
+}
+
+/* Form Styles */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* Select Category Styling */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    /* Match the styling of other fields */
+  }
+input[type="checkbox"] {
+    width: auto; /* Make checkbox smaller */
+}
+
+/* Button Styles */
+button {
+    background-color: #13405a; /* Green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 160px;
+    padding-left: 45px;
+    padding-right: 40px;
+}
+
+button:hover {
+    background-color: #76b6cf; /* Darker green on hover */
+}
+
+/* Back Button */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #70a7d7; /* Blue */
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 160px;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    button, .btn {
+        width: 100%;
+    }
+}
